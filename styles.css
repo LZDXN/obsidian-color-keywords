@@ -1,8 +1,31 @@
-/*
 
-This CSS file will be included with your plugin, and
-available in the app when your plugin is enabled.
-
-If your plugin does not need CSS, delete this file.
-
-*/
+.markdown-preview-section *:contains("Turquoise"){
+    /* Changes the color of any text containing the word "Turquoise" to Turquoise */
+    color: Turquoise;
+  }
+  
+  .markdown-source-view  *:contains("Turquoise"){
+    /* Changes the color of any text containing the word "Turquoise" to Turquoise */
+    color: Turquoise;
+  }
+  
+  
+  /* Select all elements containing the word "Navy" */
+  *:contains("Navy") {
+    /* Set the font color to Turquoise */
+    color: navy;
+  }
+  
+  /* Select all elements containing the word "Cerulean" */
+  *:contains("Cerulean") {
+    /* Set the font color to Turquoise */
+    color: var(--color-cerulean);
+  }
+  
+  
+  
+  /* Select all elements containing the word "turquoise" (case-insensitive) */
+  /* *:icontains("turquoise") {
+    color: Turquoise;
+  } */
+  
